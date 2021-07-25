@@ -2,3 +2,19 @@
     text-decoration: none;
     color: black;
 }
+.leftlinks {
+    float: left;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.leftlinks .about {
+    padding-right: 20px;
+}
+.rightlinks {
+    float: right;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+.rightlinks .images {
+    padding-left: 20px;
+}
