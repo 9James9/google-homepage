@@ -1,20 +1,65 @@
+.topbar {
+    padding-bottom: 250px;
+}
+
 .topbar a {
     text-decoration: none;
     color: black;
 }
+
+.topbar ul {
+    list-style-type: none;
+}
+
+.topbar li {
+    display: inline;
+}
+
 .leftlinks {
     float: left;
     padding-top: 10px;
     padding-left: 20px;
 }
+
 .leftlinks .about {
     padding-right: 20px;
 }
+
 .rightlinks {
     float: right;
     padding-top: 10px;
     padding-right: 20px;
+    display: flex;
 }
+
 .rightlinks .images {
     padding-left: 20px;
+}
+
+.rightlinks .material-icons {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.footer li {
+    display: inline;
+}
+
+.footerleft {
+    float: left;
+}
+
+.footerright {
+    float: right;
+}
+
+.googlecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 375px;
+}
+.carbon {
+    text-align: center;
 }
