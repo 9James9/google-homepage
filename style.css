@@ -67,10 +67,14 @@
     padding-bottom: 375px;
 }
 .searchcontainer {
-    padding-left: 50px;
+    padding-left: 10px;
     padding-right: 50px;
     border: 1px solid dimgray;
     border-radius: 25px;
+}
+.searchcontainer i {
+    color: dimgray;
+    padding-top: 10px;
 }
 .logo {
     padding-bottom: 40px;
