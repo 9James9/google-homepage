@@ -50,7 +50,10 @@
     float: left;
     padding-left: 20px;
 }
-
+.footer a {
+    text-decoration: none;
+    color: dimgray;
+}
 .footerright {
     float: right;
     padding-right: 20px;
@@ -62,6 +65,15 @@
     align-items: center;
     flex-direction: column;
     padding-bottom: 375px;
+}
+.searchcontainer {
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 1px solid dimgray;
+    border-radius: 25px;
+}
+.logo {
+    padding-bottom: 40px;
 }
 .carbon {
     text-align: center;
@@ -75,8 +87,14 @@
     color: black;
 }
 #searchbar {
+    width: 450px;
+    height: 40px;
+    outline: none;
+    font-size: 18px;
+    border: none;
+}
+#searchbar input {
     width: 500px;
     height: 40px;
     border-radius: 25px;
-    
 }
