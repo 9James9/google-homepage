@@ -2,6 +2,7 @@ body {
     width: 100%;
     height: 100%;
 }
+
 .topbar {
     padding-bottom: 250px;
 }
@@ -54,14 +55,17 @@ body {
     float: left;
     padding-left: 20px;
 }
+
 #footer a {
     text-decoration: none;
     color: dimgray;
 }
+
 .footerright {
     float: right;
     padding-right: 20px;
 }
+
 #footer {
     background-color: rgb(243, 239, 229);
     bottom: 0px;
@@ -69,6 +73,7 @@ body {
     width: 100%;
     height: 5%;
 }
+
 .googlecontainer {
     display: flex;
     justify-content: center;
@@ -76,6 +81,7 @@ body {
     flex-direction: column;
     padding-bottom: 300px;
 }
+
 .searchcontainer {
     padding-left: 10px;
     padding-right: 10px;
@@ -83,24 +89,30 @@ body {
     border-radius: 25px;
     position: relative;
 }
+
 .searchcontainer i {
     color: dimgray;
     margin-top: 10px;
 }
+
 .logo {
     padding-bottom: 40px;
 }
+
 .carbon {
     text-align: center;
 }
-.searchlinks li{
+
+.searchlinks li {
     display: inline;
     padding: 20px;
 }
+
 .searchlinks a {
     text-decoration: none;
     color: black;
 }
+
 #searchbar {
     width: 450px;
     height: 30px;
@@ -108,6 +120,7 @@ body {
     font-size: 18px;
     border: none;
 }
+
 #searchbar input {
     width: 500px;
     height: 40px;
