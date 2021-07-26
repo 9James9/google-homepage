@@ -54,6 +54,7 @@ body {
 .footerleft {
     float: left;
     padding-left: 20px;
+    margin-top: 8px;
 }
 
 #footer a {
@@ -64,6 +65,7 @@ body {
 .footerright {
     float: right;
     padding-right: 20px;
+    margin-top: 8px;
 }
 
 #footer {
