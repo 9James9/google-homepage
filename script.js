@@ -2,6 +2,9 @@ const searchBtn = document.querySelector('[data-search-button]')
 const searchInput = document.querySelector('[data-search-input]')
 
 function search() {
+    if (searchInput.value == '') {
+        return
+    }
     window.open(`https://www.google.com/search?q=${searchInput.value}`,'_blank')
     
 }
