@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="script.js" defer></script>
     <title>Google</title>
 </head>
 <header>
@@ -30,11 +31,11 @@
             <img src="googlelogo.png" class="logo">
             <div class="searchcontainer">
                 <i class="material-icons">search</i>
-                <input type="text" id="searchbar">
+                <input type="text" id="searchbar" data-search-input>
                 <i class="material-icons">mic</i>
             </div>
             <ul class="searchlinks">
-                <li><a href="" class="search">Google Search</a></li>
+                <li><a href="" class="search" data-search-button>Google Search</a></li>
                 <li><a href="" class="lucky">I'm Feeling Lucky</a></li>
             </ul>
         </div>
